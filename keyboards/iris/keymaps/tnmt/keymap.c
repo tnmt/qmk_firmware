@@ -33,6 +33,9 @@ enum custom_keycodes {
 #define KC_RVAI RGB_VAI
 #define KC_RVAD RGB_VAD
 
+#define KC_RTSF MT(MOD_RSFT, KC_ENT)
+#define KC_SPSF MT(MOD_LSFT, KC_SPC)
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_QWERTY] = LAYOUT_kc(
@@ -45,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  , LBRC,    RBRC, N  , M  ,COMM,DOT ,SLSH, GRV,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                	LALT,LGUI,SPC ,       ENT,LOWR,RASE
+                	LALT,LGUI,SPSF,      RTSF,LOWR,RASE
   //                  `----+----+----'       `----+----+----'
   ),
 
