@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
      TAB ,    ,    ,LBRC,RBRC,    ,                   , P7 ,  UP,LBRC,RBRC,BSLS,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-     LCTL,    ,    ,LPRN,RPRN,    ,                   ,LEFT,DOWN,RGHT,MINS,    ,
+     LCTL,    ,    ,LPRN,RPRN,    ,               LEFT,DOWN,  UP,RGHT,MINS,    ,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LSFT,    ,    ,LCBR,RCBR,    , LBRC,    RBRC,    , P1 , P2 , P3 ,SLSH,RSFT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
